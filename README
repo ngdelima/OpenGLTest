@@ -1,3 +1,7 @@
+Shows two objects in circular motion with modifiable angular velocities, and draws a 2D graph where each point drawn has components based on the angular velocity of those objects.
+
+This was developed in Ubuntu 16.04 using OpenGL 3.0
+
 Execute from build dir:
 
 $ cd .. && rm -rf build && mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Debug .. && make
